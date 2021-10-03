@@ -1,0 +1,12 @@
+.MuiCalendarPicker-root {
+  .css-rjgel3 {
+    white-space: nowrap;
+  }
+}
+
+.MuiPaginationItem-root {
+  &.Mui-selected {
+    pointer-events: none;
+    cursor: default;
+  }
+}

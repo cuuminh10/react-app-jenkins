@@ -1,0 +1,12 @@
+version: '3'
+services:
+  gmc-react:
+      container_name: gmc-react
+      build:
+          context: ./
+          dockerfile: Dockerfile
+          args: 
+              port: 80         
+      restart: always
+      ports:
+        - "3000:80"

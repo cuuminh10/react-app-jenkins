@@ -1,0 +1,181 @@
+{
+  "members": [
+    {
+      "id": 2,
+      "name": "Sinh",
+      "fk_roleId": 2,
+      "description": "Pro lam",
+      "createDate": "20/12/2020"
+    },
+    {
+      "id": 4,
+      "name": "abc",
+      "fk_roleId": 1,
+      "description": "ga that"
+    }
+  ],
+  "example": [
+    {
+      "id": 1,
+      "no": "NO#01",
+      "subject": "Xay to",
+      "description": "description 1",
+      "createDate": "2021-08-06T16:05:06.000Z",
+      "fk_statusId": 1,
+      "fk_locationId": 4,
+      "isPublic": true
+    },
+    {
+      "id": 2,
+      "no": "NO#02",
+      "subject": "Be tong",
+      "description": "description 2",
+      "createDate": "",
+      "fk_statusId": 2,
+      "fk_locationId": 2,
+      "isPublic": true
+    },
+    {
+      "id": 3,
+      "no": "NO#03",
+      "subject": "Cot thep",
+      "description": "description 3",
+      "createDate": "2021-08-05T16:05:06.000Z",
+      "fk_statusId": 3,
+      "fk_locationId": "",
+      "isPublic": false
+    },
+    {
+      "id": 4,
+      "no": "NO#04",
+      "subject": "Dap data",
+      "description": "description 4",
+      "createDate": "2021-08-04T16:05:06.000Z",
+      "fk_statusId": "",
+      "fk_locationId": 4,
+      "isPublic": true
+    },
+    {
+      "no": "NO#05",
+      "subject": "13123123",
+      "description": "3123123123123123",
+      "createDate": "2021-08-19T16:07:31.000Z",
+      "fk_statusId": 3,
+      "fk_locationId": 4,
+      "isPublic": true,
+      "id": 5
+    }
+  ],
+  "statuss": [
+    {
+      "id": 1,
+      "name": "Open"
+    },
+    {
+      "id": 2,
+      "name": "Pending"
+    },
+    {
+      "id": 3,
+      "name": "Close"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Tầng 1"
+    },
+    {
+      "id": 2,
+      "name": "Tầng 2"
+    },
+    {
+      "id": 3,
+      "name": "Tầng 3"
+    },
+    {
+      "id": 4,
+      "name": "Tầng 4"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Leader"
+    },
+    {
+      "id": 2,
+      "name": "Dev"
+    }
+  ],
+  "leave": [
+    {
+      "id": 1,
+      "lc_statusId": "New",
+      "employeeId": "VNHA0006",
+      "employeeName": "Đỗ Hoàng nam",
+      "lc_leaveTypeId": 5,
+      "lc_leaveApplicationId": 2,
+      "fromDate": "2021-08-09T12:00:00",
+      "toDate": "2021-08-09T12:00:00",
+      "dateAmount": 6,
+      "reason": "mmm"
+    },
+    {
+      "id": 2,
+      "lc_statusId": "InProgress",
+      "employeeId": "VNHA0006",
+      "employeeName": "Đỗ Hoàng nam",
+      "lc_leaveTypeId": 1,
+      "lc_leaveApplicationId": 1,
+      "fromDate": "2021-08-09T12:00:00",
+      "toDate": "2021-08-09T12:00:00",
+      "dateAmount": 4,
+      "reason": "xxx"
+    },
+    {
+      "id": 3,
+      "lc_statusId": "Approved",
+      "employeeId": "VNHA0006",
+      "employeeName": "Đỗ Hoàng nam",
+      "lc_leaveTypeId": 3,
+      "lc_leaveApplicationId": 2,
+      "fromDate": "2021-08-09T12:00:00",
+      "toDate": "2021-08-09T12:00:00",
+      "dateAmount": 3,
+      "reason": "yyy"
+    },
+    {
+      "id": 4,
+      "lc_statusId": "Rejected",
+      "employeeId": "VNHA0006",
+      "employeeName": "Đỗ Hoàng nam",
+      "lc_leaveTypeId": 4,
+      "lc_leaveApplicationId": 1,
+      "fromDate": "2021-08-09T12:00:00",
+      "toDate": "2021-08-09T12:00:00",
+      "dateAmount": 1,
+      "reason": "zzz"
+    }
+  ],
+  "licenseDetail": [
+    {
+      "id": "30020001",
+      "name": "Giấy ream A",
+      "amount": 500,
+      "unit": "Ream",
+      "amountStorage": 25000,
+      "unitStorage": "Sheet",
+      "deliveryDate": "2021-08-19T16:07:31.000Z"
+    },
+    {
+      "id": "30020002",
+      "name": "Giấy ream B",
+      "amount": 1000,
+      "unit": "Ream",
+      "amountStorage": 50000,
+      "unitStorage": "Sheet",
+      "deliveryDate": "2021-08-20T16:07:31.000Z"
+    }
+  ]
+}

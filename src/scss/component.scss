@@ -1,0 +1,102 @@
+.c-base-chart {
+  display: inline-flex;
+  margin-top: -15px;
+  margin-right: -45px;
+  margin-bottom: -18px;
+  margin-left: -35px;
+  position: relative;
+  z-index: 0;
+  &__total {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 25px;
+    left: 57px;
+    position: absolute;
+    font-size: 14px;
+    color: #07245B;
+    width: 40px;
+    height: 40px;
+  }
+  .apexcharts-legend {
+    right: 40px !important;
+    transform: scale(0.9);
+    padding: 0;
+    height: 100%;
+    top: 0 !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center !important;
+  }
+  .apexcharts-legend-series {
+    display: flex;
+    align-items: center
+  }
+}
+
+.c-table-basic, .c-table-main {
+  .MuiTableRow-root {
+    .MuiTableCell-root {
+      border-bottom: 1px solid rgba(224, 224, 224, 1);
+    }
+    .MuiTableCell-root {
+      &:nth-child(n+2) {
+        border-left: 1px solid rgba(224, 224, 224, 1);
+      }
+    }
+  }
+  .MuiTableBody-root {
+    .MuiTableRow-root {
+      &:last-child {
+        .MuiTableCell-root {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+.MuiInputLabel-root {
+  .MuiFormLabel-asterisk {
+    color: red;
+  }
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  position: relative;
+  .MuiTableSortLabel-root {
+    position: static;
+    .MuiSvgIcon-root {
+      &.MuiTableSortLabel-icon {
+        position: absolute;
+        right: 2px;
+        top: 5px;
+      }
+    }
+  }
+}
+
+#c-popover-filter {
+  .css-wne9d8 {
+    width: 100%;
+  }
+}
+
+.c-base-pagination {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  min-height: 80px;
+  .rows-per-page {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 !important;
+  }
+  @media screen and (min-width: 992px) {
+    min-height: 40px;
+    align-items: center;
+  }
+}
