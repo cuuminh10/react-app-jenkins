@@ -6,7 +6,7 @@
 
 - Start the server: `npm run start` or `yarn start`
 
-- Views are on: `localhost:3000`
+- Views are on: `localhost:3000`  
 
 ## File Structure
 
